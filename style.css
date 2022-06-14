@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: #eee;
+    color: darkblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.circulo{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+.paragrafo{
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    padding: 20px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.form-control input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+.form button{
+    background-color: #eee;
+    border: 2px solid #eee;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    outline: none;
+}
+.container2{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    display: none;
+}
+.paragrafo2{
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.form2 button{
+    background-color: #eee;
+    border: 1px solid #eee;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 0 10px;
+}
+.mediana{
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

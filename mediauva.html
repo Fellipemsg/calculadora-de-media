@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Curso JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>UVA</h2>
+            <i class="circulo"></i>
+        </div>
+        <form id="form" class="form">
+            <div class="paragrafo">
+                <p>Calculadora de Média</p>
+            </div>
+            <div class="form-control">
+               <label for="primeiramedia">Nota da A1</label>
+               <input type="number" id="primeiramedia" placeholder="Insira a A1..." required>
+            </div>
+            <div class="form-control">
+                <label for="segundamedia">Nota da A2 ou A3</label>
+                <input type="number" id="segundamedia" placeholder="Insira a A2 ou A3..." required>
+            </div>
+            <button type="submit" onclick="validate()">Enviar</button>
+        </form>
+    </div>
+    <div class="container2">
+        <div class="header">
+            <h3>Resultado</h3>
+        </div>
+        <div class="mediana" id="mediana">
+
+        </div>
+            <div class="paragrafo2">
+                <p id="resultado"></p>
+            </div>
+        <form id="form2" class="form2">
+            <button>Calcular novamente</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/5457384f65.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
